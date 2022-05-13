@@ -1,0 +1,68 @@
+Algoritmo "Atividade pática 9 - Procedimentos"
+// Disciplina   : Algoritmos
+// Professor   : Lucy Mari
+// Descrição   : Calculo da multiplicação entre dois números solicitados pelo usuário
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 09/05/2022
+
+procedimento multiplicacao
+
+var
+
+res: inteiro
+
+inicio
+
+
+res <- p * q
+resultado <- res
+
+fimprocedimento
+
+Var
+// Seção de Declarações das variáveis Globais
+
+resultado, p, q: inteiro
+nome: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva( "Olá, por favor me diga seu nome : ")
+leia(nome)
+
+escreval
+
+escreval("Olá, " , nome , " por favor me informe um número : ")
+leia(p)
+
+escreval
+
+escreval
+escreva("O número que você digitou foi" , p , " ! ")
+
+escreval
+
+escreval(nome , " ,Por favor digite um segundo número :")
+leia(q)
+
+escreval
+
+escreval
+escreva("O número que você digitou foi" , q , " ! ")
+
+escreval
+
+escreval
+escreval("A multiplicação entre os seus dois números é : ")
+
+escreval
+
+multiplicacao
+escreva(resultado)
+
+
+escreval
+escreval(nome , " Obrigado pela sua colaboração ! ")
+
+Fimalgoritmo
