@@ -1,0 +1,81 @@
+Algoritmo "Atividade Prática 10 - Procedimentos com Parâmetros"
+// Disciplina   : Algoritmos
+// Professor   : Lucy Mari
+// Descrição   : Calculo etre dois números descritos pelo usuário, utilizando procedimentos com parâmetros
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 09/05/2022
+
+
+procedimento calculo (x,y: inteiro)
+
+inicio
+
+mult <- x * y
+res <- mult
+
+fimprocedimento
+
+Var
+// Seção de Declarações das variáveis 
+
+res,mult,n,m: inteiro
+nome: caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+ 
+//Apresentação
+escreva("---------- Atividade Prática 10 ----------")
+
+escreval
+escreval
+
+escreval("Olá, por favor me diga o seu nome")
+
+leia(nome)
+
+escreval
+escreval
+
+escreval("olá, " , nome , " É um prazer te conhecer")
+
+//Solicitação de dados
+
+escreval
+
+escreval( nome , " por favor digite o primeiro número que será utilizado para a multiplicação : ")
+leia(n)
+
+escreval
+
+escreval("o número digitado por você foi : " , n)
+
+escreval
+
+escreval
+
+escreva("Por favor digite o segundo e ultimo número que será utilizado para a multiplicação : ")
+leia(m)
+
+escreval
+
+escreval("o número digitado por você foi : " , m)
+
+//Apresentação de dados e resultados
+
+escreval
+escreval(nome, " Agora iremos aos resultados")
+
+escreval
+escreval
+
+escreval("os números escolhidos por você foram " , n , " e " , m)
+
+calculo(n,m)
+
+escreval
+escreval
+
+escreva("O resultado da sua multiplicação é : " ,res)
+
+Fimalgoritmo
