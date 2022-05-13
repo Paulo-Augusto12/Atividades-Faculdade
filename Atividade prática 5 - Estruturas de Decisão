@@ -1,0 +1,90 @@
+Algoritmo "Atividade Prética 5 : Maior Número"
+// Disciplina   : Estruturas de decisão
+// Professor   : Franklin Portela 
+// Descrição   :
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 19/04/2022
+Var
+// Seção de Declarações das variáveis 
+nome : caractere
+OP : inteiro
+NUM1 : real
+NUM2 : real
+NUM3 : real
+RESULTADO : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+// PARTE A
+escreva( " Olá, por favor diga seu nome : " )
+leia (nome)
+escreval ( "Olá  " , nome , "  muito prazer ! ")
+
+escreval
+
+escreva ( nome , " ,este algoritmo irá lhe apresentar um número maior entre dois números escolhidos por você")
+
+escreval
+
+escreva ( "por favor digite um número: ")
+leia (NUM1)
+
+escreval
+
+escreva ( " muito bem, agora por favor, digite o segundo número : " )
+LEIA (NUM2)
+
+escreval
+
+escreva ( "Perfeito, os números digitados por você foram " , NUM1 , " e " , NUM2)
+
+escreval
+
+SE ( (NUM1 < NUM2) ) ENTAO
+escreval ( "O menor número é o" , NUM1)
+
+SENAO
+
+escreval ( "O menor número é o" , NUM2)
+
+FIMSE
+
+// PARTE B
+
+escreval
+
+escreval (" Agora para a segunda parte iremos calcular uma operação de multiplicação ou adição")
+
+escreval ( " as opções disponíveis são : " )
+
+escreva ( "Opção 1 : Calcular o dobro de um número")
+
+escreval
+
+escreva (" Opção 2 : calcular o triplo do número ")
+
+escreval
+escreval
+
+escreva ( "Por favor, digite uma opção : ")
+leia (OP)
+
+escreval
+
+escreval (" Por favor digite um número ")
+leia(NUM3)
+
+escolha (OP)
+
+caso 1
+RESULTADO <- NUM3*2
+Escreval (" O dobro do seu número é : " , RESULTADO)
+
+caso 2
+
+RESULTADO <- NUM3*3
+Escreval (" O triplo do seu número é : " , RESULTADO)
+fimescolha
+
+Fimalgoritmo
