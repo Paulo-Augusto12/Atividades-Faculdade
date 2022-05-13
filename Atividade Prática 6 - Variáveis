@@ -1,0 +1,76 @@
+Algoritmo "ATIVIDADE PRÁTICA 6"
+// Disciplina   : Algoritmos
+// Professor   : Franklin Portela 
+// Descrição   : Atividade utilizando estruturas de repetição REPITA, PARA e ENQUANTO
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 25/04/2022
+Var
+// Seção de Declarações das variáveis 
+i,num,multi: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+//Primeira Parte
+i <- 1
+
+
+multi <- 1
+
+
+PARA i de 1 ate 10 faca
+
+
+escreval("Olá, por favor insira um valor inteiro para i para realizarmos a multiplicação : ")
+
+
+leia(num)
+
+
+multi <- multi*num
+
+
+i <- i+1
+
+
+FIMPARA
+
+
+escreval("O valor da sua multiplicação é : " , multi)
+
+
+escreval
+
+//Segunda Parte
+
+escreval("Utilizando a estrutura de repetição REPITA...ATÉ o algoritmo ficará assim")
+
+
+i <-1
+
+
+multi <- 1
+
+
+repita
+
+
+i <- i+1
+
+
+escreval("Olá, insira um valor inteiro para i para realizarmos a operação : ")
+
+
+leia(num)
+
+
+multi <- multi*num
+
+
+ATE i >= 11
+
+
+escreval( "o Resultado é : " , multi)
+
+
+Fimalgoritmo
