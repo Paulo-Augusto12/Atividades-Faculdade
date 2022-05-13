@@ -1,0 +1,60 @@
+Algoritmo "Atividade prática 4"
+// Disciplina   : Algoritmos
+// Professor   : Franklin Portela 
+// Descrição   : Algoritmo utilizado para, inserção de dados pelo usuário e cálculo da média destes dados.
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 19/04/2022
+Var
+// Seção de Declarações das variáveis 
+
+nome : caractere
+num1 : real
+num2 : real
+num3 : real
+num4 : real
+num5 : real
+soma: real
+resultado : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval ("Olá, por favor diga seu nome : " , nome )
+leia (nome)
+
+escreval
+
+escreval ("Olá ", nome, ",Este algoritmo será utilizado para calcular a média entre 5 números, Por favor, me diga um número : ")
+leia (num1)
+
+escreval
+
+escreval ( "por favor, me diga mais um número : " )
+leia (num2)
+
+escreval
+
+escreval ( " por favor, mais um número : ")
+leia(num3)
+
+escreval ( "Quase lá, me diga mais um número: ")
+leia(num4)
+
+escreval
+
+escreval ("Para finalizar, por favor me diga um último número: ")
+leia(num5)
+
+escreval
+
+soma <- num1+num2+num3+num4+num5
+
+escreval(nome , " a soma de seus números é : " , soma)
+
+resultado <- (num1+num2+num3+num4+num5)/5
+
+escreval
+
+escreval ("Obrigado pela colaboração ! " , nome, " ,a média entre seus números escolhidos é : " , resultado )
+
+Fimalgoritmo
