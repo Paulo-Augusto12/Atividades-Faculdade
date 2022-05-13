@@ -1,0 +1,63 @@
+Algoritmo "Atividade Prática 12 - Funções com parâmetros"
+// Disciplina   : Algoritmos
+// Professor   : Lucy Mari
+// Descrição   : Calculo entre dois números descritos pelo usuário utilizando como método funções com parâmetros
+// Autor(a)    : Paulo Augusto Ribeiro
+// Data atual  : 11/05/2022
+
+funcao calculo (o, p: inteiro) : inteiro
+
+var
+
+inicio
+
+retorne o * p
+
+fimfuncao
+
+Var
+
+// Seção de Declarações das variáveis globais
+
+res, n, m: inteiro
+nome : caractere
+
+Inicio
+
+// Seção de introdução
+
+escreva("---------- Atividade Prática 12 ---------- Funções com Parâmetros ----------")
+
+escreval
+
+escreval("Olá, por favor diga seu nome : ")
+escreval
+leia(nome)
+escreval
+escreval("olá " , nome , " É um prazer te receber")
+
+
+//Seção de recebimento e análise de dados
+escreval
+escreval(nome, " Por favor digite um número para a multiplicação : ")
+escreval
+leia(n)
+
+escreval("Por favor digite o segundo número")
+escreval
+leia(m)
+
+//Apresentação de resultados
+
+escreval
+
+escreval(nome , " Os números digitados por você foram " , n , " e , " , m)
+
+escreval("O resultado da multiplicação é :")
+
+res <- calculo (n , m)
+
+escreval
+escreval (res)
+
+Fimalgoritmo
